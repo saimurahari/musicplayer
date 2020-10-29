@@ -1,11 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[58]:
-
 
 from tkinter import *
-from PIL import Image, ImageTk
 from tkinter import filedialog
 from pygame import mixer
 
@@ -142,11 +136,3 @@ root.resizable(False,False)
 root.config(menu=menubar)
 root.config(background="red")
 root.mainloop()
-
-
-
-# In[ ]:
-
-
-
-
